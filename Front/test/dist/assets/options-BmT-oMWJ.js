@@ -1,0 +1,1 @@
+const a=[{label:"表内序号",prop:"id"},{label:"司机名",prop:"drivername"},{label:"评价时间",prop:"evaluationTime"},{label:"评价信息1",prop:"evaluationindicator1"},{label:"评价信息2",prop:"evaluationindicator2"}];export{a as o};

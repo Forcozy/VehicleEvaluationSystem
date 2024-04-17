@@ -1,0 +1,1 @@
+import{_ as r,b as s,c as e,i as n,w as o,f as c,j as i,T as _}from"./index-DXB3kBi2.js";const l={};function f(m,u){const t=s("router-view");return e(),n(t,null,{default:o(({Component:a})=>[c(_,{name:"el-fade-in-linear"},{default:o(()=>[(e(),n(i(a),{style:{height:"100%"}}))]),_:2},1024)]),_:1})}const p=r(l,[["render",f]]);export{p as default};

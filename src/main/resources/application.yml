@@ -1,0 +1,30 @@
+PublicNetworkAddress: "http://8.134.182.46:8081/" #公网IP地址
+
+
+
+
+QRCode:
+  PublicNetworkAddress: http://8.134.182.46:8081/   #公网地址
+  save-path: D:/114/QRCode/   #司机二维码生成的文件路径
+
+
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.80.26:1521:orcl   # （IDEA内使用的）     这里的orcl是SID不是tasn.ors里面的名称
+    #url: jdbc:oracle:thin:@localhost:1521:orcl  # （服务器内使用的）服务器的IP，对准自己的oracle的
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: test01user
+    password: aA183991
+
+# PageHelper 分页插件配置
+page helper:
+  helperDialect: oracle
+  reasonable: true
+
+
+server:
+  port: 8080
+
+
+
